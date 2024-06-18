@@ -1234,7 +1234,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #52bb98;
+    background: #094d11;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -2046,6 +2046,9 @@ pre code {
 }
 .post-meta-item-icon {
   margin-right: 3px;
+}
+.post-meta-item-text {
+  display: none;
 }
 @media (max-width: 991px) {
   .post-meta-item-text {
