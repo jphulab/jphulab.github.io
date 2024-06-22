@@ -90,9 +90,92 @@
 
 
 <nav class="site-nav">
-  <ul class="main-menu menu"><li class="menu-item menu-item-home"><a href="/Home/" rel="section"><i class="/zh-CN/Home/  fa fa-home fa-fw"></i>Home</a></li><li class="menu-item menu-item-lab"><a href="/Lab/" rel="section"><i class="/zh-CN/Lab/ fa-solid fa-building fa-fw"></i>Lab</a></li><li class="menu-item menu-item-projects"><a href="/Projects/" rel="section"><i class="/zh-CN/Projrcts/ fa-solid fa-diagram-project fa-fw"></i>Projects</a></li><li class="menu-item menu-item-publications"><a href="/Publication/" rel="section"><i class="/zh-CN/Publications/ fa-solid fa-newspaper fa-fw"></i>Publications</a></li><li class="menu-item menu-item-group"><a href="/Group/" rel="section"><i class="/zh-CN/Group/ fa fa-user fa-fw"></i>Group</a></li><li class="menu-item menu-item-contact"><a href="/Contact/" rel="section"><i class="/zh-CN/Group fa-solid fa-envelope fa-fw"></i>Contact</a></li>
+  <ul class="main-menu menu">
   </ul>
 </nav>
+
+<nav id="en-menu" class="menu" style="display: none;">
+  
+    <a href="/Home/" class="fa fa-home">Home</a>
+  
+    <a href="/Lab/" class="fa-solid fa-building">Lab</a>
+  
+    <a href="/Projects/" class="fa-solid fa-diagram-project">Projects</a>
+  
+    <a href="/Publication/" class="fa-solid fa-newspaper">Publications</a>
+  
+    <a href="/Group/" class="fa fa-user">Group</a>
+  
+    <a href="/Contact/" class="fa-solid fa-envelope">Contact</a>
+  
+</nav>
+
+<nav id="zh-cn-menu" class="menu" style="display: none;">
+  
+    <a href="/zh-CN/Home/" class="fa fa-home">主页</a>
+  
+    <a href="/zh-CN/Lab/" class="fa-solid fa-building">团队</a>
+  
+    <a href="/zh-CN/Projects/" class="fa-solid fa-diagram-project">项目</a>
+  
+    <a href="/zh-CN/Publications/" class="fa-solid fa-newspaper">出版</a>
+  
+    <a href="/zh-CN/Group/" class="fa fa-user">成员</a>
+  
+    <a href="/zh-CN/Contact/" class="fa-solid fa-envelope">加入我们</a>
+  
+</nav>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var language = document.documentElement.lang;
+
+    if (language === 'en') {
+      var enMenu = document.getElementById('en-menu');
+      enMenu.style.display = 'block';
+      alignMenuLeft(enMenu);
+      addIndentation(enMenu);
+      addLineBreaks(enMenu);
+    } else if (language === 'zh-CN') {
+      var zhCnMenu = document.getElementById('zh-cn-menu');
+      zhCnMenu.style.display = 'block';
+      alignMenuLeft(zhCnMenu);
+      addIndentation(zhCnMenu);
+      addLineBreaks(zhCnMenu);
+    }
+  });
+
+    function alignMenuLeft(menu) {
+      menu.style.textAlign = 'left';
+      var menuItems = menu.getElementsByTagName('a');
+      for (var i = 0; i < menuItems.length; i++) {
+        var menuItem = menuItems[i];
+        menuItem.style.textTransform = 'none';
+        menuItem.style.fontFamily = 'Arial, sans-serif';
+        menuItem.style.fontSize = '18px';
+        menuItem.style.fontWeight = 'bold';
+        menuItem.style.textDecoration = 'none';
+        menuItem.style.color = '#333333';
+      }
+    }
+
+  function addIndentation(menu) {
+    var menuItems = menu.getElementsByTagName('a');
+    for (var i = 0; i < menuItems.length; i++) {
+      var menuItem = menuItems[i];
+      menuItem.style.marginLeft = '30px';
+    }
+  }
+
+  function addLineBreaks(menu) {
+    var menuItems = menu.getElementsByTagName('a');
+    for (var i = 0; i < menuItems.length; i++) {
+      var menuItem = menuItems[i];
+      menuItem.insertAdjacentHTML('afterend', '<br>');
+    }
+  }
+</script>
+
 
 
 
