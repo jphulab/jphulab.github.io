@@ -418,30 +418,30 @@ body >header a {
 }
 #imglogo {
   float: left;
-  width: 4em;
+  width: 18em;
   height: 4em;
 }
 @media only screen and (min-width: 768px) {
   #imglogo {
-    width: 5em;
+    width: 19em;
   }
 }
 @media only screen and (min-width: 1024px) {
   #imglogo {
-    width: 5.5em;
+    width: 19.5em;
   }
 }
 #imglogo img {
-  width: 4em;
+  width: 18em;
 }
 @media only screen and (min-width: 768px) {
   #imglogo img {
-    width: 5em;
+    width: 19em;
   }
 }
 @media only screen and (min-width: 1024px) {
   #imglogo img {
-    width: 5.5em;
+    width: 19.5em;
   }
 }
 #textlogo {
@@ -521,7 +521,7 @@ header nav {
 }
 @media only screen and (min-width: 1024px) {
   header nav {
-    padding-left: 100px;
+    padding-left: 300px;
     float: left;
     width: auto;
     margin-top: 1em;
