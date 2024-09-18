@@ -419,16 +419,17 @@ body >header a {
 #imglogo {
   float: left;
   width: 18em;
-  height: 4em;
 }
 @media only screen and (min-width: 768px) {
   #imglogo {
     width: 19em;
+    height: 8em;
   }
 }
 @media only screen and (min-width: 1024px) {
   #imglogo {
     width: 19.5em;
+    height: 4em;
   }
 }
 #imglogo img {
@@ -450,7 +451,7 @@ body >header a {
   margin-left: 0.5em;
 }
 #textlogo h1.site-name {
-  width: 86%;
+  width: 96%;
   font-family: "covered_by_your_graceregular";
   font-size: 200%;
   line-height: 1.5;
