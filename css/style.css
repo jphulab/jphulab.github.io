@@ -396,7 +396,7 @@ body >header {
   color: #fff;
   padding: 1em 0 0.8em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   body >header {
     padding: 1.8em 0 1.5em;
   }
@@ -407,7 +407,7 @@ body >header >div {
   position: relative;
   overflow: hidden;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   body >header >div {
     width: 93%;
   }
@@ -426,7 +426,7 @@ body >header a {
     height: 8em;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #imglogo {
     width: 19.5em;
     height: 4em;
@@ -440,7 +440,7 @@ body >header a {
     width: 19em;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #imglogo img {
     width: 19.5em;
   }
@@ -463,7 +463,7 @@ body >header a {
     font-size: 240%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #textlogo h1.site-name {
     font-size: 280%;
   }
@@ -477,7 +477,7 @@ body >header a {
     font-size: 100%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #textlogo h2.blog-motto {
     font-size: 110%;
   }
@@ -489,7 +489,7 @@ body >header a {
   top: 1em;
   padding: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .navbar {
     display: none;
   }
@@ -520,7 +520,7 @@ header nav {
     width: 50%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   header nav {
     padding-left: 300px;
     float: left;
@@ -529,12 +529,12 @@ header nav {
     max-height: none;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   header nav ul {
     float: right;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   header nav ul li {
     float: left;
   }
@@ -542,7 +542,7 @@ header nav {
 header nav ul li a {
   padding: 0.2em 0 0.2em 1em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   header nav ul li a {
     padding: 0.2em 1.5em;
   }
@@ -567,7 +567,7 @@ header nav ul li a:hover {
   width: 80%;
   padding-left: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .search input {
     width: 8em;
     -webkit-transition: 0.5s width;
@@ -595,7 +595,7 @@ header nav ul li a:hover {
     width: 96%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #container {
     width: 94%;
   }
@@ -609,7 +609,7 @@ header nav ul li a:hover {
   margin: 1em 0 0;
   line-height: 1.8;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #main {
     margin: 2em 0 0;
     width: 75%;
@@ -770,7 +770,7 @@ header nav ul li a:hover {
   color: #2ca6cb;
 }
 /* page layout */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .page {
     margin-left: 10% !important;
   }
@@ -801,7 +801,7 @@ header nav ul li a:hover {
   background: #fafafa;
   border-left: 0.5em solid #ccc;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .archive-title {
     margin: 2em 0;
     width: 18.5%;
@@ -838,7 +838,7 @@ header nav ul li a:hover {
     min-height: 200px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .archive-part {
     float: right;
     margin-left: 2% !important;
@@ -905,7 +905,7 @@ article header.article-info >h1 {
   -moz-osx-font-smoothing: grayscale;
   border-left: 5px solid #2ca6cb;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   article header.article-info >h1 {
     font-size: 200%;
     padding-top: 0.3em;
@@ -1081,7 +1081,7 @@ article .article-content p {
   line-height: 1.5;
   margin-top: 0.7em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   article .article-content p {
     margin-top: 1em;
   }
@@ -1094,7 +1094,7 @@ article .article-content figure img {
   vertical-align: middle;
   padding-top: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   article .article-content img,
   article .article-content video,
   article .article-content figure img {
@@ -1599,7 +1599,7 @@ section.comment {
   -moz-osx-font-smoothing: grayscale;
   content: "\f0c9";
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .closeaside {
     display: block;
     position: absolute;
@@ -1612,7 +1612,7 @@ section.comment {
   margin: 1em 0 0;
   padding: 0.5em 2% 1em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   #asidepart {
     position: relative;
     float: left;
@@ -1644,7 +1644,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .categorieslist {
     width: 100%;
     float: none;
@@ -1671,7 +1671,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .tagslist {
     width: 100%;
     float: none;
@@ -1705,7 +1705,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .rsspart {
     width: 100%;
     float: none;
@@ -1732,7 +1732,7 @@ section.comment {
 .archiveslist {
   padding-right: 1em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .archiveslist {
     width: 100%;
     float: none;
@@ -1770,7 +1770,7 @@ section.comment {
   float: left;
   margin: 0.3em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .archive-float li {
     float: none;
   }
@@ -1782,7 +1782,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .tagcloudlist {
     width: 100%;
     float: none;
@@ -1812,7 +1812,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .linkslist {
     width: 100%;
     float: none;
@@ -1846,7 +1846,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .weiboshow {
     width: 100%;
     float: none;
@@ -1866,7 +1866,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .doubanshow {
     width: 100%;
     float: none;
@@ -1886,7 +1886,7 @@ section.comment {
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .github-card {
     width: 100%;
     float: none;
@@ -2005,7 +2005,7 @@ footer {
   font-size: 185%;
   padding: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1440px) {
   .social-font a {
     padding: 0.3em;
   }
@@ -2354,7 +2354,7 @@ pre .javascript .function {
   right: 1em;
   cursor: pointer;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1440px) {
   #totop {
     display: none !important;
   }
