@@ -396,7 +396,7 @@ body >header {
   color: #fff;
   padding: 1em 0 0.8em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   body >header {
     padding: 1.8em 0 1.5em;
   }
@@ -407,7 +407,7 @@ body >header >div {
   position: relative;
   overflow: hidden;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   body >header >div {
     width: 93%;
   }
@@ -420,13 +420,13 @@ body >header a {
   float: left;
   width: 18em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #imglogo {
     width: 19em;
     height: 8em;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #imglogo {
     width: 19.5em;
     height: 4em;
@@ -435,12 +435,12 @@ body >header a {
 #imglogo img {
   width: 18em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #imglogo img {
     width: 19em;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #imglogo img {
     width: 19.5em;
   }
@@ -458,12 +458,12 @@ body >header a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #textlogo h1.site-name {
     font-size: 240%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #textlogo h1.site-name {
     font-size: 280%;
   }
@@ -472,12 +472,12 @@ body >header a {
   font-size: 0.7em;
   font-weight: normal;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #textlogo h2.blog-motto {
     font-size: 100%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #textlogo h2.blog-motto {
     font-size: 110%;
   }
@@ -489,7 +489,7 @@ body >header a {
   top: 1em;
   padding: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .navbar {
     display: none;
   }
@@ -520,7 +520,7 @@ header nav {
     width: 50%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   header nav {
     padding-left: 300px;
     float: left;
@@ -529,12 +529,12 @@ header nav {
     max-height: none;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   header nav ul {
     float: right;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   header nav ul li {
     float: left;
   }
@@ -542,7 +542,7 @@ header nav {
 header nav ul li a {
   padding: 0.2em 0 0.2em 1em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   header nav ul li a {
     padding: 0.2em 1.5em;
   }
@@ -567,7 +567,7 @@ header nav ul li a:hover {
   width: 80%;
   padding-left: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .search input {
     width: 8em;
     -webkit-transition: 0.5s width;
@@ -590,12 +590,12 @@ header nav ul li a:hover {
   margin: 0 auto;
   overflow: hidden;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #container {
     width: 96%;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #container {
     width: 94%;
   }
@@ -609,7 +609,7 @@ header nav ul li a:hover {
   margin: 1em 0 0;
   line-height: 1.8;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #main {
     margin: 2em 0 0;
     width: 75%;
@@ -635,7 +635,7 @@ header nav ul li a:hover {
   transition: border-left 0.45s;
   padding: 0.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #main section.post a {
     padding: 1em;
   }
@@ -698,7 +698,7 @@ header nav ul li a:hover {
   font-size: 0.9em;
   padding: 0.5em !important;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #archive-page section.post a time {
     padding-left: 1em;
   }
@@ -757,7 +757,7 @@ header nav ul li a:hover {
   display: none;
   padding: 0.5em 1em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #page-nav .page-number {
     display: inline-block;
   }
@@ -770,7 +770,7 @@ header nav ul li a:hover {
   color: #2ca6cb;
 }
 /* page layout */
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .page {
     margin-left: 10% !important;
   }
@@ -801,7 +801,7 @@ header nav ul li a:hover {
   background: #fafafa;
   border-left: 0.5em solid #ccc;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .archive-title {
     margin: 2em 0;
     width: 18.5%;
@@ -833,12 +833,12 @@ header nav ul li a:hover {
 .current {
   color: #ea6753 !important;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .archive-part {
     min-height: 200px;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .archive-part {
     float: right;
     margin-left: 2% !important;
@@ -861,7 +861,7 @@ header nav ul li a:hover {
     width: 20%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .archive-nav {
     width: 100%;
     float: left;
@@ -890,7 +890,7 @@ header nav ul li a:hover {
 .photo a:hover {
   color: #ea6753;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   article header.article-info {
     border-bottom: 1px solid #dbdbdb;
   }
@@ -905,7 +905,7 @@ article header.article-info >h1 {
   -moz-osx-font-smoothing: grayscale;
   border-left: 5px solid #2ca6cb;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   article header.article-info >h1 {
     font-size: 200%;
     padding-top: 0.3em;
@@ -916,7 +916,7 @@ article header.article-info >p.article-author {
   text-align: right;
   border-bottom: 1px solid #dbdbdb;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   article header.article-info >p.article-author {
     float: right;
     border-bottom: none;
@@ -928,7 +928,7 @@ article header.article-info >p.article-time {
   text-align: center;
   margin-bottom: -2.7em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   article header.article-info >p.article-time {
     float: right;
     margin-right: 1em;
@@ -1042,7 +1042,7 @@ article .article-content ol {
   font-size: 100%;
   padding-top: 0.7em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   article .article-content ul,
   article .article-content ol {
     padding-left: 1.5em;
@@ -1081,7 +1081,7 @@ article .article-content p {
   line-height: 1.5;
   margin-top: 0.7em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   article .article-content p {
     margin-top: 1em;
   }
@@ -1094,7 +1094,7 @@ article .article-content figure img {
   vertical-align: middle;
   padding-top: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   article .article-content img,
   article .article-content video,
   article .article-content figure img {
@@ -1195,7 +1195,7 @@ footer.article-footer {
     width: 60%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .article-share {
     width: 16.5em;
   }
@@ -1401,7 +1401,7 @@ footer.article-footer {
 .article-nav {
   padding: 0 10%;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .article-nav {
     padding: 0 4%;
   }
@@ -1433,7 +1433,7 @@ footer.article-footer {
   content: "\f053";
   padding-right: 0.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .article-nav .prev {
     width: 45%;
     float: left;
@@ -1454,7 +1454,7 @@ footer.article-footer {
   content: "\f054";
   padding-right: 0.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .article-nav .next {
     width: 45%;
     float: right;
@@ -1599,7 +1599,7 @@ section.comment {
   -moz-osx-font-smoothing: grayscale;
   content: "\f0c9";
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .closeaside {
     display: block;
     position: absolute;
@@ -1612,7 +1612,7 @@ section.comment {
   margin: 1em 0 0;
   padding: 0.5em 2% 1em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   #asidepart {
     position: relative;
     float: left;
@@ -1637,14 +1637,14 @@ section.comment {
   -ms-transition: color 0.5s;
   transition: color 0.5s;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .categorieslist {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .categorieslist {
     width: 100%;
     float: none;
@@ -1664,14 +1664,14 @@ section.comment {
 .tagslist {
   margin: 1em 0 0;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .tagslist {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .tagslist {
     width: 100%;
     float: none;
@@ -1698,14 +1698,14 @@ section.comment {
   background: #2ca6cb;
   width: 100%;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .rsspart {
     float: left;
     width: 45%;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .rsspart {
     width: 100%;
     float: none;
@@ -1732,7 +1732,7 @@ section.comment {
 .archiveslist {
   padding-right: 1em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .archiveslist {
     width: 100%;
     float: none;
@@ -1770,19 +1770,19 @@ section.comment {
   float: left;
   margin: 0.3em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .archive-float li {
     float: none;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .tagcloudlist {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .tagcloudlist {
     width: 100%;
     float: none;
@@ -1805,14 +1805,14 @@ section.comment {
 .linkslist {
   margin-top: 0.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .linkslist {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .linkslist {
     width: 100%;
     float: none;
@@ -1839,14 +1839,14 @@ section.comment {
 .weiboshow {
   margin-top: 0.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .weiboshow {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .weiboshow {
     width: 100%;
     float: none;
@@ -1859,14 +1859,14 @@ section.comment {
 .doubanshow {
   margin-top: 0.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .doubanshow {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .doubanshow {
     width: 100%;
     float: none;
@@ -1879,14 +1879,14 @@ section.comment {
 .github-card {
   margin-top: 1.5em;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .github-card {
     width: 45%;
     float: left;
     margin: 0 5% 0 0;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .github-card {
     width: 100%;
     float: none;
@@ -1912,7 +1912,7 @@ footer {
   height: 14em;
   margin: 0 auto;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #footer .line {
     width: 10em;
     float: left;
@@ -1926,7 +1926,7 @@ footer {
   border-right: 0.125em solid #fff;
   margin: 0 auto;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   #footer .line span {
     position: absolute;
     left: 3em;
@@ -1953,7 +1953,7 @@ footer {
   -ms-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .author {
     position: absolute;
     top: 6em;
@@ -1971,7 +1971,7 @@ footer {
   margin: 0 auto;
   color: #fff;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .info {
     margin: 4.5em 0 2em 0;
     float: left;
@@ -1989,7 +1989,7 @@ footer {
     padding-left: 20%;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .social-font {
     width: 15em;
     position: absolute;
@@ -2005,7 +2005,7 @@ footer {
   font-size: 185%;
   padding: 0.5em;
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1280px) {
   .social-font a {
     padding: 0.3em;
   }
@@ -2069,7 +2069,7 @@ footer {
   color: #fff;
   text-align: center;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 568px) {
   .copyright {
     float: left;
   }
@@ -2354,7 +2354,7 @@ pre .javascript .function {
   right: 1em;
   cursor: pointer;
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1280px) {
   #totop {
     display: none !important;
   }
