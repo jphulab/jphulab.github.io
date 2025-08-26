@@ -420,7 +420,7 @@ body >header a {
   float: left;
   width: 18em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #imglogo {
     width: 19em;
     height: 8em;
@@ -435,7 +435,7 @@ body >header a {
 #imglogo img {
   width: 18em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #imglogo img {
     width: 19em;
   }
@@ -458,7 +458,7 @@ body >header a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #textlogo h1.site-name {
     font-size: 240%;
   }
@@ -472,7 +472,7 @@ body >header a {
   font-size: 0.7em;
   font-weight: normal;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #textlogo h2.blog-motto {
     font-size: 100%;
   }
@@ -493,6 +493,10 @@ body >header a {
   .navbar {
     display: none;
   }
+}
+.nav-item-link i {
+  margin-left: 0.01em; /* 图标和文字之间留一点空隙 */
+  font-size: 0.75em; /* 图标略小 */
 }
 .navbutton::before {
   font-family: "FontAwesome";
@@ -590,7 +594,7 @@ header nav ul li a:hover {
   margin: 0 auto;
   overflow: hidden;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #container {
     width: 96%;
   }
@@ -635,7 +639,7 @@ header nav ul li a:hover {
   transition: border-left 0.45s;
   padding: 0.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #main section.post a {
     padding: 1em;
   }
@@ -698,7 +702,7 @@ header nav ul li a:hover {
   font-size: 0.9em;
   padding: 0.5em !important;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #archive-page section.post a time {
     padding-left: 1em;
   }
@@ -757,7 +761,7 @@ header nav ul li a:hover {
   display: none;
   padding: 0.5em 1em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #page-nav .page-number {
     display: inline-block;
   }
@@ -833,7 +837,7 @@ header nav ul li a:hover {
 .current {
   color: #ea6753 !important;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .archive-part {
     min-height: 200px;
   }
@@ -861,7 +865,7 @@ header nav ul li a:hover {
     width: 20%;
   }
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .archive-nav {
     width: 100%;
     float: left;
@@ -890,7 +894,7 @@ header nav ul li a:hover {
 .photo a:hover {
   color: #ea6753;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   article header.article-info {
     border-bottom: 1px solid #dbdbdb;
   }
@@ -916,7 +920,7 @@ article header.article-info >p.article-author {
   text-align: right;
   border-bottom: 1px solid #dbdbdb;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   article header.article-info >p.article-author {
     float: right;
     border-bottom: none;
@@ -928,7 +932,7 @@ article header.article-info >p.article-time {
   text-align: center;
   margin-bottom: -2.7em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   article header.article-info >p.article-time {
     float: right;
     margin-right: 1em;
@@ -1042,7 +1046,7 @@ article .article-content ol {
   font-size: 100%;
   padding-top: 0.7em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   article .article-content ul,
   article .article-content ol {
     padding-left: 1.5em;
@@ -1195,7 +1199,7 @@ footer.article-footer {
     width: 60%;
   }
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .article-share {
     width: 16.5em;
   }
@@ -1401,7 +1405,7 @@ footer.article-footer {
 .article-nav {
   padding: 0 10%;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .article-nav {
     padding: 0 4%;
   }
@@ -1433,7 +1437,7 @@ footer.article-footer {
   content: "\f053";
   padding-right: 0.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .article-nav .prev {
     width: 45%;
     float: left;
@@ -1454,7 +1458,7 @@ footer.article-footer {
   content: "\f054";
   padding-right: 0.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .article-nav .next {
     width: 45%;
     float: right;
@@ -1637,7 +1641,7 @@ section.comment {
   -ms-transition: color 0.5s;
   transition: color 0.5s;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .categorieslist {
     width: 45%;
     float: left;
@@ -1664,7 +1668,7 @@ section.comment {
 .tagslist {
   margin: 1em 0 0;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .tagslist {
     width: 45%;
     float: left;
@@ -1698,7 +1702,7 @@ section.comment {
   background: #2ca6cb;
   width: 100%;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .rsspart {
     float: left;
     width: 45%;
@@ -1775,7 +1779,7 @@ section.comment {
     float: none;
   }
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .tagcloudlist {
     width: 45%;
     float: left;
@@ -1805,7 +1809,7 @@ section.comment {
 .linkslist {
   margin-top: 0.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .linkslist {
     width: 45%;
     float: left;
@@ -1839,7 +1843,7 @@ section.comment {
 .weiboshow {
   margin-top: 0.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .weiboshow {
     width: 45%;
     float: left;
@@ -1859,7 +1863,7 @@ section.comment {
 .doubanshow {
   margin-top: 0.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .doubanshow {
     width: 45%;
     float: left;
@@ -1879,7 +1883,7 @@ section.comment {
 .github-card {
   margin-top: 1.5em;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .github-card {
     width: 45%;
     float: left;
@@ -1912,7 +1916,7 @@ footer {
   height: 14em;
   margin: 0 auto;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #footer .line {
     width: 10em;
     float: left;
@@ -1926,7 +1930,7 @@ footer {
   border-right: 0.125em solid #fff;
   margin: 0 auto;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   #footer .line span {
     position: absolute;
     left: 3em;
@@ -1953,7 +1957,7 @@ footer {
   -ms-transform: rotateZ(360deg);
   transform: rotateZ(360deg);
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .author {
     position: absolute;
     top: 6em;
@@ -1971,7 +1975,7 @@ footer {
   margin: 0 auto;
   color: #fff;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .info {
     margin: 4.5em 0 2em 0;
     float: left;
@@ -1989,7 +1993,7 @@ footer {
     padding-left: 20%;
   }
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .social-font {
     width: 15em;
     position: absolute;
@@ -2069,7 +2073,7 @@ footer {
   color: #fff;
   text-align: center;
 }
-@media only screen and (min-width: 568px) {
+@media only screen and (min-width: 768px) {
   .copyright {
     float: left;
   }
