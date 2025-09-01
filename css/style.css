@@ -433,16 +433,16 @@ body >header a {
   }
 }
 #imglogo img {
-  width: 18em;
+  width: 17.2em;
 }
 @media only screen and (min-width: 768px) {
   #imglogo img {
-    width: 19em;
+    width: 18.2em;
   }
 }
 @media only screen and (min-width: 1280px) {
   #imglogo img {
-    width: 19.5em;
+    width: 18.7em;
   }
 }
 #textlogo {
